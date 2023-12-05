@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "check-format": "npx prettier@next . --check ",
     "cm": "cz",
     "dev": "next dev",
     "build": "next build",
@@ -11,6 +13,7 @@
   },
   "dependencies": {
     "next": "14.0.3",
+    "prettier": "^4.0.0-alpha.3",
     "react": "^18",
     "react-dom": "^18"
   },
