@@ -1,12 +1,13 @@
 import React from 'react'
 import NavbarButton from '../MobileNavbarButton/NavbarButton'
+import ButtonLogin from '../MobileNavbarButton/buttonLogin/buttonLogin'
 
-const header = () => {
+export default function header() {
     return (
         <nav>
 
             <div className='flex justify-between '>
-                <h1>login and support</h1>
+                <ButtonLogin></ButtonLogin>
                 <NavbarButton />
             </div>
 
@@ -15,4 +16,3 @@ const header = () => {
     )
 }
 
-export default header
