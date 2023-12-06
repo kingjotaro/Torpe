@@ -4,7 +4,7 @@ import NavbarButton from './NavbarButton';
 import {it} from 'vitest'
 
 
-  it('deve renderizar o componente', async () => {
+  it('should open the dropdown menu with "Inicio" option after being clicked', async () => {
      const {getByText, getByAltText   } = render(<NavbarButton />);
      const svgElement = getByAltText('menu SVG');
      fireEvent.click(svgElement)
