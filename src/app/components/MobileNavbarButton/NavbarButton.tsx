@@ -19,10 +19,9 @@ function NavbarButton() {
             <button
                 onClick={handleButtonClick}
                 type="button"
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring focus:border-blue-300"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-purple-600 focus:outline-none focus:ring focus:border-blue-300"
                 aria-expanded="true"
                 aria-haspopup="true"
-                id= '123'
             >
                 <Image src='/menu.svg' alt='menu SVG' width={30} height={30} priority={true} />
             </button>
