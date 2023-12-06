@@ -23,7 +23,7 @@ function NavbarButton() {
                 aria-expanded="true"
                 aria-haspopup="true"
             >
-                <Image src='/menu.svg' alt='menu SVG' width={30} height={30} priority={true} />
+                <Image src='/menu.svg' alt='menu SVG' width={50} height={50} priority={true} />
             </button>
 
             <Dropdown isDropdownOpen={isDropdownOpen} dropdownItems={dropdownItems} />
