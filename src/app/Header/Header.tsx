@@ -1,9 +1,9 @@
 import React from 'react'
-import NavbarButton from '../MobileNavbarButton/NavbarButton'
-import ButtonLogin from '../ButtonLogin/ButtonLogin'
-import ButtonSupport from '../ButtonSupport/ButtonSupport'
+import NavbarButton from '../components/MobileNavbarButton/NavbarButton'
+import ButtonLogin from '../components/ButtonLogin/ButtonLogin'
+import ButtonSupport from '../components/ButtonSupport/ButtonSupport'
 
-export default function header() {
+export default function Header() {
     return (
         <nav>
 
